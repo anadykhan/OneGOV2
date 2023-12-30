@@ -1,0 +1,12 @@
+D:\OneGOV2\OneGOV2\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.dll
+D:\OneGOV2\OneGOV2\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.pdb
+D:\OneGOV2\OneGOV2\BusinessLogicLayer\bin\Debug\DataAccessLayer.dll
+D:\OneGOV2\OneGOV2\BusinessLogicLayer\bin\Debug\DataAccessLayer.pdb
+D:\OneGOV2\OneGOV2\BusinessLogicLayer\bin\Debug\DataAccessLayer.dll.config
+D:\OneGOV2\OneGOV2\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.AssemblyReference.cache
+D:\OneGOV2\OneGOV2\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+D:\OneGOV2\OneGOV2\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CopyComplete
+D:\OneGOV2\OneGOV2\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.dll
+D:\OneGOV2\OneGOV2\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.pdb
+D:\OneGOV2\OneGOV2\BusinessLogicLayer\bin\Debug\EntityFramework.dll
+D:\OneGOV2\OneGOV2\BusinessLogicLayer\bin\Debug\EntityFramework.xml
