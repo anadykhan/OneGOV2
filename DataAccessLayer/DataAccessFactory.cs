@@ -20,5 +20,10 @@ namespace DataAccessLayer
         {
             return new UserBookingRepo();
         }
+
+        public static IRepo<Like, int, Like> LikeData()
+        {
+            return new LikeRepo();
+        }
     }
 }
