@@ -10,5 +10,8 @@ D:\OneGOV2\OneGOV2\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileI
 D:\OneGOV2\OneGOV2\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
 D:\OneGOV2\OneGOV2\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 D:\OneGOV2\OneGOV2\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
-D:\OneGOV2\OneGOV2\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.InitializeDB.resources
+D:\OneGOV2\OneGOV2\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.InitDB.resources
 D:\OneGOV2\OneGOV2\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
+D:\OneGOV2\OneGOV2\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.RemoveColumnFromRooms.resources
+D:\OneGOV2\OneGOV2\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.SeedingRoomsdata.resources
+D:\OneGOV2\OneGOV2\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.UserBookingSeeding.resources

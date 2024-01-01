@@ -7,13 +7,13 @@ namespace DataAccessLayer.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class InitializeDB : IMigrationMetadata
+    public sealed partial class UserBookingSeeding : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(InitializeDB));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(UserBookingSeeding));
         
         string IMigrationMetadata.Id
         {
-            get { return "202312301428443_InitializeDB"; }
+            get { return "202401010550318_User Booking Seeding"; }
         }
         
         string IMigrationMetadata.Source

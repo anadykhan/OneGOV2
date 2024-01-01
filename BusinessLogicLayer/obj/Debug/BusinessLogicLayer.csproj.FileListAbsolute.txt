@@ -10,3 +10,5 @@ D:\OneGOV2\OneGOV2\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.dll
 D:\OneGOV2\OneGOV2\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.pdb
 D:\OneGOV2\OneGOV2\BusinessLogicLayer\bin\Debug\EntityFramework.dll
 D:\OneGOV2\OneGOV2\BusinessLogicLayer\bin\Debug\EntityFramework.xml
+D:\OneGOV2\OneGOV2\BusinessLogicLayer\bin\Debug\AutoMapper.dll
+D:\OneGOV2\OneGOV2\BusinessLogicLayer\bin\Debug\AutoMapper.xml

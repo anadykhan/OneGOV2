@@ -10,5 +10,6 @@ namespace DataAccessLayer.Models
     internal class OneGOV2Context : DbContext
     {
         public DbSet<Room> Rooms { get; set; }
+        public DbSet<UserBooking> UserBookings { get; set; }
     }
 }

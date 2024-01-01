@@ -1,5 +1,6 @@
 ﻿namespace DataAccessLayer.Migrations
 {
+    using DataAccessLayer.Models;
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
@@ -14,10 +15,38 @@
 
         protected override void Seed(DataAccessLayer.Models.OneGOV2Context context)
         {
-            //  This method will be called after migrating to the latest version.
+            // Add 10 sample Room entries
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    context.Rooms.AddOrUpdate(
+            //        new Models.Room
+            //        {
+            //            RoomNumber = i,
+            //            RoomType = "SampleType" + i,
+            //            AvailabilityStatus = "Available",
+            //            ImageURL = "SampleImageURL" + i
+            //        });
+            //}
 
-            //  You can use the DbSet<T>.AddOrUpdate() helper extension method
-            //  to avoid creating duplicate seed data.
+            // Save changes to the database
+            //context.SaveChanges();
+
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    context.UserBookings.AddOrUpdate(
+            //        new Models.UserBooking
+            //        {
+            //            BookingID = i,
+            //            RoomID = i,  // Assigning RoomID for the relationship
+            //            CheckInDate = DateTime.Now.AddDays(i),
+            //            CheckOutDate = DateTime.Now.AddDays(i + 3),
+            //            TotalPrice = 100 * i,
+            //            BookingStatus = "Confirmed"
+            //        });
+            //}
+
+            // Save changes to the database
+            //context.SaveChanges();
         }
     }
 }

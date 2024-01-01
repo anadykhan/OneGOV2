@@ -71,3 +71,8 @@ D:\OneGOV2\OneGOV2\OneGOV2\obj\Debug\OneGOV2.csproj.CoreCompileInputs.cache
 D:\OneGOV2\OneGOV2\OneGOV2\obj\Debug\OneGOV2.csproj.CopyComplete
 D:\OneGOV2\OneGOV2\OneGOV2\obj\Debug\OneGOV2.dll
 D:\OneGOV2\OneGOV2\OneGOV2\obj\Debug\OneGOV2.pdb
+D:\OneGOV2\OneGOV2\OneGOV2\bin\DataAccessLayer.dll
+D:\OneGOV2\OneGOV2\OneGOV2\bin\AutoMapper.dll
+D:\OneGOV2\OneGOV2\OneGOV2\bin\DataAccessLayer.pdb
+D:\OneGOV2\OneGOV2\OneGOV2\bin\DataAccessLayer.dll.config
+D:\OneGOV2\OneGOV2\OneGOV2\bin\AutoMapper.xml
