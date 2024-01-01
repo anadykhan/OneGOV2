@@ -11,5 +11,7 @@ namespace DataAccessLayer.Models
     {
         public DbSet<Room> Rooms { get; set; }
         public DbSet<UserBooking> UserBookings { get; set; }
+        public DbSet<Like> Likes { get; set; }
+        public DbSet<Cart> Carts { get; set; }
     }
 }

@@ -8,12 +8,12 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Repos
 {
-    public class LikeRepo : Repo, IRepo<Room, int, Room>
+    internal class LikeRepo : Repo, IRepo<Like, int, Like>
     {
-        public Room Create(Room obj)
+        public Like Create(Like obj)
         {
-            db.Rooms.Add(obj);
-            if (db.SaveChanges() > 0)
+            db.Likes.Add(obj);
+            if(db.SaveChanges() > 0)
             {
                 return obj;
             }
@@ -23,25 +23,25 @@ namespace DataAccessLayer.Repos
         public bool Delete(int id)
         {
             var ex = Read(id);
-            db.Rooms.Remove(ex);
+            db.Likes.Remove(ex);
             return db.SaveChanges() > 0;
         }
 
-        public List<Room> Read()
+        public List<Like> Read()
         {
-            return db.Rooms.ToList();
+            return db.Likes.ToList();
         }
 
-        public Room Read(int id)
+        public Like Read(int id)
         {
-            return db.Rooms.Find(id);
+            return db.Likes.Find(id);
         }
 
-        public Room Update(Room obj)
+        public Like Update(Like obj)
         {
-            var ex = Read(obj.RoomID);
+            var ex = Read(obj.LikeID);
             db.Entry(ex).CurrentValues.SetValues(obj);
-            if (db.SaveChanges() > 0)
+            if(db.SaveChanges() > 0)
             {
                 return obj;
             }

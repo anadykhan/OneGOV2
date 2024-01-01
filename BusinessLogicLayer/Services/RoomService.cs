@@ -67,5 +67,13 @@ namespace BusinessLogicLayer.Services
             return redata;
 
         }
+
+        public static RoomDTO Delete(int Id)
+        {
+            var data = DataAccessFactory.RoomData().Delete(Id);
+
+            return null;
+
+        }
     }
 }

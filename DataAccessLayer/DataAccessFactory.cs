@@ -25,5 +25,10 @@ namespace DataAccessLayer
         {
             return new LikeRepo();
         }
+
+        public static IRepo<Cart, int, Cart> CartData()
+        {
+            return new CartRepo();
+        }
     }
 }

@@ -52,5 +52,27 @@ namespace BusinessLogicLayer.Services
             var redata = mapper.Map<UserBookingDTO>(result);
             return redata;
         }
+
+        public static UserBookingDTO Update(UserBookingDTO obj)
+        {
+            var cfg = new MapperConfiguration(c =>
+            {
+                c.CreateMap<UserBooking, UserBookingDTO>();
+                c.CreateMap<UserBookingDTO, UserBooking>();
+            });
+            var mapper = new Mapper(cfg);
+            var data = mapper.Map<UserBooking>(obj);
+            var result = DataAccessFactory.UserBookingData().Update(data);
+            var redata = mapper.Map<UserBookingDTO>(result);
+            return redata;
+
+        }
+
+        public static UserBookingDTO Delete(int Id)
+        {
+            var data = DataAccessFactory.UserBookingData().Delete(Id);
+
+            return null;
+        }
     }
 }

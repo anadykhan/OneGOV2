@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace BusinessLogicLayer.DTOs
 {
-    internal class Cart
+    public class CartDTO
     {
+        public int CartID { get; set; }
+        public string UserName { get; set; }
+        public int ProductID { get; set; }
     }
 }

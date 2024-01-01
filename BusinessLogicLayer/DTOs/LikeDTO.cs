@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace BusinessLogicLayer.DTOs
 {
-    internal class LikeDTO
+    public class LikeDTO
     {
+        public int LikeID { get; set; }
     }
 }
